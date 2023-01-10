@@ -1,0 +1,71 @@
+body {
+   font-family: Arial;
+   text-align: center;
+}
+.password-input{
+   margin: 20px;
+}
+.usuario{
+   color: rgb(160, 19, 26);
+}
+.INICIO-SESION{
+   text-align: center;
+}
+.INICIO-SESION>.CAJA-CORREO>.CORREO{
+      font-size: 20px;
+      margin: 15px;
+      margin-right: 60px;
+}
+.INICIO-SESION>.CAJA-PASSWORD>.PASSWORD{
+      font-size: 20px;
+      margin: 15px;
+}
+.INICIO-SESION>.CAJA-CORREO>.INPUT-CORREO{
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   background-color: rgb(137, 137, 240);
+   color: rgb(2, 2, 2);
+}
+.INICIO-SESION>.CAJA-CORREO>.INPUT-CORREO:hover{
+   
+   background-color: rgb(243, 243, 248);
+   
+}
+.INICIO-SESION>.CAJA-PASSWORD>.INPUT-PASSWORD{
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   background-color: rgb(137, 137, 240);
+   color: black;
+}
+.INICIO-SESION>.CAJA-PASSWORD>.INPUT-PASSWORD:hover{
+   background-color: rgb(243, 243, 248);
+}
+.BUTTON-INGRESAR{
+   font-size: 30px;
+   background-color: green;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   color: white;
+   width:250px;
+   margin: 20px;
+   border: 0px;
+   font-weight: bold;
+   
+}
+.BUTTON-INGRESAR:hover{
+   background-color: aliceblue;
+   color: black;
+}
+.USER{
+   font-size: 50px;
+   margin: 50px;
+}
