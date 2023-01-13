@@ -37,15 +37,23 @@ if (
       }
    }
 }
+/**
+ * if (isset($_files['imagen]))
+ * {
+ *    $destino = _dir_.DIRECTORY_SEPARATOR."".DIRECTORY_SEPARATOR.$_FILES['files]['name']
+ *    $res = move_uploaded_file($_FILES['files]['tmp_name'],$destino);
+ * 
+ * }
+ */
 
 ?>
 
 <html>
 
 <head>
-   <link rel="stylesheet" href="./../css/styleFormulario.css">
+   <link rel="stylesheet" href="./../../proyecto_joyeria/css/estiloCabecera.css">
 </head>
-<form action="" method="POST" class="FORMULARIO-REGISTRAR">
+<form action="" method="POST" class="FORMULARIO-REGISTRAR" enctype="multipart/form-data">
    <table>
       <p>
          <label for="nombre_producto">NOMBRES DE PRODUCTO</label>
@@ -57,7 +65,7 @@ if (
       </p>
       <p>
          <label for="logo">LOGO</label>
-         <input type="file" name="logo" placeholder="">
+         <input type="file" name="logo" placeholder="" accept="image/png, image/jpeg">
       </p>
       <p>
          <label for="categoria">CATEGORIA</label>

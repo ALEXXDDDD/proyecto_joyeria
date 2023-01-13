@@ -1,1 +1,71 @@
+   .FORMULARIO-REGISTRAR{
+   text-align: center;
+   background-color: rgb(149, 197, 197);
+   display: 1em;
+   margin-top: 20px;
+   margin-left: 200px;
+   margin-right: 200px;
+   border-color: rgb(223, 10, 10);
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+}
+.FORMULARIO-REGISTRAR>p>.USUARIO-LABEL{
+  margin-right: 150px;
+}
+.FORMULARIO-REGISTRAR>p>label{
    
+   margin-right: 50px;
+   color: black;
+   font-weight: bold;
+}
+.FORMULARIO-REGISTRAR>p>input{
+   
+   margin-left: 100px;
+   border-radius: 35px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   -ms-border-radius: 35px;
+   -o-border-radius: 35px;
+   font-size: 20px;
+}
+.FORMULARIO-REGISTRAR>p>select{
+   
+   margin-left: 100px;
+   border-radius: 35px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   -ms-border-radius: 35px;
+   -o-border-radius: 35px;
+   font-size: 20px;
+}
+.FORMULARIO-REGISTRAR>.AÑADIR{
+   border: 0px;
+   background-color: rgb(45, 180, 45);
+   font-size: 40px;
+   -o-border-radius: 35px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   -ms-border-radius: 35px;
+   border-radius: 35px;
+   color: rgb(59, 57, 57);
+}
+.FORMULARIO-REGISTRAR>.AÑADIR:hover{
+   background-color: red;
+}
+.PIE-PAGINA{
+   background-color: black;
+   color: white;
+   
+   font-size: 20px;
+   margin-top: 30px;
+}
+.AYUDA{
+   text-align: center;
+}
+.BUTON-FB{
+   font-size: 50px;
+   margin: 20px;
+}

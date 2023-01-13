@@ -13,28 +13,41 @@ $produc = productoAdapter::listarProducto();
 <body>
    <h2>PRODUCTOS</h2>
    <h2>===========================</h2>
-   <?php foreach ($produc as $p) :
-   ?>
-      <h2><?php echo $p->idproducto; ?></h2>
-      <h2><?php echo $p->nombre_producto; ?></h2>
-      <h2><?php echo $p->precio; ?></h2>
-      <button><a href="./../form/formularioProducto.php">AGREGAR</a></button>
-      <button>
-         <a href="./eliminarProducto.php?idproducto= <?php echo $p->idproducto; ?>">
-            ELIMINAR
-         </a>
-      </button>
-      <button>
-         <a href="./listarDetalle.php?idproducto= <?php echo $p->idproducto; ?>">VER DETALLE</a>
-      </button>
-      <button>
-         <a href="./../../proyecto_joyeria/administrador/actualizarProducto.php?idproducto= <?php echo $p->idproducto; ?>">EDITAR</a>
-      </button>
-      <h2>===========================</h2>
-      <h2><?php ?></h2>
+
+   <body>
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">ID</th>
+               <th scope="col">Nombre del Producto</th>
+               <th scope="col">Precio de Venta</th>
+               
+            </tr>
+         </thead>
+         <?php foreach ($produc as $p) :  ?>
+            <tbody>
+               <tr>
+                  <th scope="row"><?php echo $p->idproducto; ?></th>
+                  <td><?php echo $p->nombre_producto; ?></td>
+                  <td><?php echo $p->precio; ?></td>
+                 
+
+                  <td><a href="./eliminarProducto.php?idproducto= <?php echo $p->idproducto; ?>">
+                        ELIMINAR
+                     </a>
+                  </td>
+                  <td>
+                     <a href="./listarDetalle.php?idproducto= <?php echo $p->idproducto; ?>">VER DETALLE</a>
+                  </td>
 
 
-   <?php endforeach ?>
-</body>
+               </tr>
+
+
+            </tbody>
+         <?php endforeach; ?>
+      </table>
+      <a href="./../form/formularioProducto.php">REGISTAR PRODUCTOS</a>
+   </body>
 
 </html>

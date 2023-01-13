@@ -21,7 +21,10 @@
       <h1 class="TITULO-404">ERROR EN VERFICAR INFORMACION</h1>
       <div>
          <p class="SUBTITULO">
-            Por favor Inicie sesion
+            POR FAVOR INCIE SESION 
+         </p>
+         <p>
+            PARA QUE USTED PUEDA ACCEDER A LA PAGINA 
          </p>
       </div>
       <div>
